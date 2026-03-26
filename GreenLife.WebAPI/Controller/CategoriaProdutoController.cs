@@ -62,6 +62,7 @@ namespace GreenLife.WebAPI.Controller
                     Titulo = categoriaProduto.Titulo!
                 };
 
+                _categoriaProdutoRepository.Cadastrar(novaCategoria);
                 return StatusCode(201, categoriaProduto);
 
             }

@@ -90,6 +90,43 @@
   },
   {
     "ContainingType": "GreenLife.WebAPI.Controller.FornecedorController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedor",
+        "Type": "GreenLife.WebAPI.DTO.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.FornecedorController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "fornecedor",
+        "Type": "GreenLife.WebAPI.DTO.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.FornecedorController",
     "Method": "Get",
     "RelativePath": "api/Fornecedor/{id}",
     "HttpMethod": "GET",
