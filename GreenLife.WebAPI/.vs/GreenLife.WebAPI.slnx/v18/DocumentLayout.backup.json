@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\controller\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:controller\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\controller\\categoriaprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:controller\\categoriaprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\repositories\\fornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:repositories\\fornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\repositories\\categoriaprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:repositories\\categoriaprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\interfaces\\icategoriaprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:interfaces\\icategoriaprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\interfaces\\ifornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:interfaces\\ifornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\dto\\categoriaprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:dto\\categoriaprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\greenlife.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:greenlife.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\BdContextGreenLife\\GreenLifeContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BdContextGreenLife\\GreenLifeContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\greenlife.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DD4445A9-9839-4B98-B629-C3C2C4929CEC}|GreenLife.WebAPI.csproj|solutionrelative:greenlife.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FornecedorController.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Controller\\FornecedorController.cs",
+              "RelativeDocumentMoniker": "Controller\\FornecedorController.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Controller\\FornecedorController.cs",
+              "RelativeToolTip": "Controller\\FornecedorController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:31:24.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FornecedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Repositories\\FornecedorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FornecedorRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Repositories\\FornecedorRepository.cs",
+              "RelativeToolTip": "Repositories\\FornecedorRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wBwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:19:06.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Controller\\CategoriaProdutoController.cs",
+              "RelativeDocumentMoniker": "Controller\\CategoriaProdutoController.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Controller\\CategoriaProdutoController.cs",
+              "RelativeToolTip": "Controller\\CategoriaProdutoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:00:00.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriaProdutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\DTO\\CategoriaProdutoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\CategoriaProdutoDTO.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\DTO\\CategoriaProdutoDTO.cs",
+              "RelativeToolTip": "DTO\\CategoriaProdutoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:57:22.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Repositories\\CategoriaProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoriaProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Repositories\\CategoriaProdutoRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoriaProdutoRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA3wEAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:49:12.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoriaProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Interfaces\\ICategoriaProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICategoriaProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Interfaces\\ICategoriaProdutoRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICategoriaProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:47:35.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IFornecedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Interfaces\\IFornecedorRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IFornecedorRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Interfaces\\IFornecedorRepository.cs",
+              "RelativeToolTip": "Interfaces\\IFornecedorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:46:55.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:42:09.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GreenLife.WebAPI",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\GreenLife.WebAPI.csproj",
+              "RelativeDocumentMoniker": "GreenLife.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\GreenLife.WebAPI.csproj",
+              "RelativeToolTip": "GreenLife.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T18:41:40.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GreenLifeContext.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\BdContextGreenLife\\GreenLifeContext.cs",
+              "RelativeDocumentMoniker": "BdContextGreenLife\\GreenLifeContext.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\BdContextGreenLife\\GreenLifeContext.cs",
+              "RelativeToolTip": "BdContextGreenLife\\GreenLifeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:40:53.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-26T18:39:57.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GreenLife.WebAPI",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\GreenLife.WebAPI.csproj",
+              "RelativeDocumentMoniker": "GreenLife.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\GreenLife.WebAPI.csproj",
+              "RelativeToolTip": "GreenLife.WebAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T18:39:52.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:35:49.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

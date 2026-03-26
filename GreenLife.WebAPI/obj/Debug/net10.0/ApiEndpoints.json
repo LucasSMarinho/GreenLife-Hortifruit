@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.CategoriaProdutoController",
+    "Method": "Get",
+    "RelativePath": "api/CategoriaProduto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.CategoriaProdutoController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/CategoriaProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaProduto",
+        "Type": "GreenLife.WebAPI.DTO.CategoriaProdutoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.CategoriaProdutoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/CategoriaProduto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoriaProduto",
+        "Type": "GreenLife.WebAPI.DTO.CategoriaProdutoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.CategoriaProdutoController",
+    "Method": "Deletar",
+    "RelativePath": "api/CategoriaProduto",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.CategoriaProdutoController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/CategoriaProduto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.FornecedorController",
+    "Method": "Get",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenLife.WebAPI.Controller.FornecedorController",
+    "Method": "Get",
+    "RelativePath": "api/Fornecedor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
