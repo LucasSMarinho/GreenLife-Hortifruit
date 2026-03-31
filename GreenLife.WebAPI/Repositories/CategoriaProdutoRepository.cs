@@ -32,21 +32,29 @@ namespace GreenLife.WebAPI.Repositories
         }
 
         /// <summary>
-        /// Busca uma categoriaProduto por id
+        /// Busca uma categoria produto por id
         /// </summary>
         /// <param name="id">Id da categoria de produto a ser buscado</param>
-        /// <returns>Objeto CategoriaProduto </returns>
+        /// <returns>Objeto Categoria produto</returns>
         public CategoriaProduto BuscarPorId(Guid id)
         {
             return _context.CategoriaProdutos.Find(id)!;
         }
 
+        /// <summary>
+        /// Cadastra uma categoria de produto
+        /// </summary>
+        /// <param name="categoriaProduto">Dados da categoria de produto</param>
         public void Cadastrar(CategoriaProduto categoriaProduto)
         {
             _context.CategoriaProdutos.Add(categoriaProduto);
             _context.SaveChanges();
         }
 
+        /// <summary>
+        /// Deleta uma categoria de produto
+        /// </summary>
+        /// <param name="id">Id da categoria que será deletada</param>
         public void Deletar(Guid id)
         {
         
@@ -60,6 +68,10 @@ namespace GreenLife.WebAPI.Repositories
         }
         
 
+        /// <summary>
+        /// Lista as categorias de produto
+        /// </summary>
+        /// <returns>Retorna uma lista de categorias de produto</returns>
         public List<CategoriaProduto> Listar()
         {
             return _context.CategoriaProdutos.OrderBy(e => e.Titulo).ToList();

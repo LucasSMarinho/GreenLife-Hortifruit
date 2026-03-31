@@ -13,6 +13,12 @@ public class ProdutoRepository : IProdutoRepository
     {
         _context = context;
     }
+
+    /// <summary>
+    /// Atualiza um produto
+    /// </summary>
+    /// <param name="id">Id do produto que será atualizado</param>
+    /// <param name="produtoAtualizado">Novos dados do produto</param>
     public void Atualizar(Guid id, Produto produtoAtualizado)
     {
         var produtoBuscado = _context.Produtos.Find(id);
@@ -29,17 +35,30 @@ public class ProdutoRepository : IProdutoRepository
             _context.SaveChanges();
     }
 
+    /// <summary>
+    /// Busca um produto pelo seu id
+    /// </summary>
+    /// <param name="Id">Id do produto buscado</param>
+    /// <returns>Retorna o produto buscado</returns>
     public Produto BuscarPorId(Guid Id)
     {
         return _context.Produtos.Find(Id)!;
     }
 
+    /// <summary>
+    /// Cadastra um produto
+    /// </summary>
+    /// <param name="produto">Dados do produto</param>
     public void Cadastrar(Produto produto)
     {
         _context.Produtos.Add(produto);
         _context.SaveChanges();
     }
 
+    /// <summary>
+    /// Deleta um produto
+    /// </summary>
+    /// <param name="id">Id do produto que será deletado</param>
     public void Deletar(Guid id)
     {
         var produtoBuscado = _context.Produtos.Find(id);
@@ -51,6 +70,10 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
+    /// <summary>
+    /// Lista todos os produtos
+    /// </summary>
+    /// <returns>Retorna lita de produtos</returns>
     public List<Produto> Listar()
     {
         return _context.Produtos.OrderBy(e => e.Nome).ToList();
