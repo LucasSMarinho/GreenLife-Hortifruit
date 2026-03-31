@@ -161,3 +161,4 @@ C:\Users\45193262813\Desktop\GreenLife-Hortifruit\GreenLife.WebAPI\obj\Debug\net
 C:\Users\45193262813\Desktop\GreenLife-Hortifruit\GreenLife.WebAPI\obj\Debug\net10.0\GreenLife.WebAPI.pdb
 C:\Users\45193262813\Desktop\GreenLife-Hortifruit\GreenLife.WebAPI\obj\Debug\net10.0\GreenLife.WebAPI.genruntimeconfig.cache
 C:\Users\45193262813\Desktop\GreenLife-Hortifruit\GreenLife.WebAPI\obj\Debug\net10.0\ref\GreenLife.WebAPI.dll
+C:\Users\45193262813\Desktop\GreenLife-Hortifruit\GreenLife.WebAPI\bin\Debug\net10.0\GreenLife.WebAPI.staticwebassets.runtime.json
