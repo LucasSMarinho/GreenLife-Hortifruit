@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife\\greenlife.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|c:\\users\\90124765858\\desktop\\greenlife-hortifruit\\greenlife.webapi\\repositories\\categoriaprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|solutionrelative:repositories\\categoriaprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|c:\\users\\90124765858\\desktop\\greenlife-hortifruit\\greenlife.webapi\\controller\\categoriaprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|solutionrelative:controller\\categoriaprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|c:\\users\\90124765858\\desktop\\greenlife-hortifruit\\greenlife.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,8 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Controller\\CategoriaProdutoController.cs",
+              "RelativeDocumentMoniker": "Controller\\CategoriaProdutoController.cs",
+              "ToolTip": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Controller\\CategoriaProdutoController.cs",
+              "RelativeToolTip": "Controller\\CategoriaProdutoController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwEAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:49:38.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriaProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Repositories\\CategoriaProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoriaProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Repositories\\CategoriaProdutoRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoriaProdutoRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:48:02.897Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -26,16 +59,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife\\GreenLife.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\90124765858\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwBgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:35:49.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T18:35:49.863Z"
             }
           ]
         }
