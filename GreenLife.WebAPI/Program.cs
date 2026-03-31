@@ -23,6 +23,7 @@ builder.Services.AddOpenApi();
 //Injeção de dependencia
 builder.Services.AddScoped<ICategoriaProdutoRepository, CategoriaProdutoRepository>();
 builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 //Adiciona Swagger
 builder.Services.AddEndpointsApiExplorer();

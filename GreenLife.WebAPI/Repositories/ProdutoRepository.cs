@@ -13,16 +13,20 @@ public class ProdutoRepository : IProdutoRepository
     {
         _context = context;
     }
-    public void Atualizar(Guid id, Produto produto)
+    public void Atualizar(Guid id, Produto produtoAtualizado)
     {
-        var produtoBuscado= _context.Produtos.Find(id);
+        var produtoBuscado = _context.Produtos.Find(id);
 
         if (produtoBuscado != null)
         {
-            produtoBuscado.Nome = string.IsNullOrEmpty(produto.Nome) ? produtoBuscado.Nome : produto.Nome;
-
-            _context.SaveChanges();
+            produtoBuscado.Nome = produtoAtualizado.Nome;
+            produtoBuscado.Imagem = produtoAtualizado.Imagem;
+            produtoBuscado.Preco = produtoAtualizado.Preco;
+            produtoBuscado.IdFornecedor = produtoAtualizado.IdFornecedor;
+            produtoBuscado.IdCategoriaProduto = produtoAtualizado.IdCategoriaProduto;
+            _context.Produtos.Update(produtoBuscado);
         }
+            _context.SaveChanges();
     }
 
     public Produto BuscarPorId(Guid Id)

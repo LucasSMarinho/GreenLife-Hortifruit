@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenLife.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e54385db2fdc9f95095e979c0f9b97bae1532459")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+870138b2f6ca67847be2f06033b7c09c5c9f2f29")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenLife.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenLife.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

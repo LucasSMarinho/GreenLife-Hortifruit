@@ -1,6 +1,7 @@
 ﻿using GreenLife.WebAPI.DTO;
 using GreenLife.WebAPI.Interfaces;
 using GreenLife.WebAPI.Models;
+using GreenLife.WebAPI.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -63,7 +64,7 @@ namespace GreenLife.WebAPI.Controller
             }
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Atualizar(Guid id, FornecedorDTO fornecedor)
         {
             try
@@ -77,6 +78,20 @@ namespace GreenLife.WebAPI.Controller
 
                 _fornecedorRepository.Atualizar(id, novoFornecedor);
                 return Ok(novoFornecedor);
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(Guid id)
+        {
+            try
+            {
+                _fornecedorRepository.Deletar(id);
+                return NoContent();
             }
             catch (Exception erro)
             {

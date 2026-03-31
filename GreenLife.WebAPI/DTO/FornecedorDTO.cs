@@ -4,10 +4,10 @@ namespace GreenLife.WebAPI.DTO
 {
     public class FornecedorDTO
     {
-        [Required(ErrorMessage = "O Titulo da categoria é obrigatória")]
+        [Required(ErrorMessage = "O Nome fantasia do fornecedor é obrigatória")]
         public string? NomeFantasia { get; set; }
 
-        [Required(ErrorMessage = "O Titulo da categoria é obrigatória")]
+        [Required(ErrorMessage = "O Cnpj do fornecedor é obrigatória")]
         public string? Cnpj {  get; set; }
     }
 }

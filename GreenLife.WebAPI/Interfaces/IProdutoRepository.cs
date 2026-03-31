@@ -6,7 +6,7 @@ namespace GreenLife.WebAPI.Interfaces
     {
         List<Produto> Listar();
         public Produto BuscarPorId(Guid Id);
-        public void Cadastrar();
+        public void Cadastrar(Produto produto);
         public void Atualizar(Guid id, Produto produto);
         public void Deletar(Guid id);
     }

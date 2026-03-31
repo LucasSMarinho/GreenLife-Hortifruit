@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace GreenLife.WebAPI.Models;
@@ -24,5 +25,6 @@ public partial class Fornecedor
     public string Cnpj { get; set; } = null!;
 
     [InverseProperty("IdFornecedorNavigation")]
+    [JsonIgnore]
     public virtual ICollection<Produto> Produtos { get; set; } = new List<Produto>();
 }

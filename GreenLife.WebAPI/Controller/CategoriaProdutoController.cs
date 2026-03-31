@@ -72,7 +72,7 @@ namespace GreenLife.WebAPI.Controller
             }
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Atualizar(Guid id, CategoriaProdutoDTO categoriaProduto)
         {
             try
@@ -91,7 +91,7 @@ namespace GreenLife.WebAPI.Controller
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Deletar(Guid id)
         {
             try
@@ -101,7 +101,6 @@ namespace GreenLife.WebAPI.Controller
             }
             catch (Exception erro)
             {
-
                 return BadRequest(erro.Message);
             }
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace GreenLife.WebAPI.Models;
@@ -17,5 +18,6 @@ public partial class CategoriaProduto
     public string Titulo { get; set; } = null!;
 
     [InverseProperty("IdCategoriaProdutoNavigation")]
+    [JsonIgnore]
     public virtual ICollection<Produto> Produtos { get; set; } = new List<Produto>();
 }
