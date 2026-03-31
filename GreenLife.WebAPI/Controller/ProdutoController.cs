@@ -17,6 +17,11 @@ namespace GreenLife.WebAPI.Controller
             _produtoRepository = produtoRepository;
         }
 
+        /// <summary>
+        /// Endpoint da API que faz chamada ao método de listar todos os produtos
+        /// </summary>
+        /// <returns>A lista de produto</returns>
+
         [HttpGet]
         public IActionResult Get()
         {
@@ -29,6 +34,12 @@ namespace GreenLife.WebAPI.Controller
                 return BadRequest(erro.Message);
             }
         }
+
+        /// <summary>
+        /// Endpoint da API que faz chamada ao método de buscar um produto por id
+        /// </summary>
+        /// <param name="id">Id produto buscado</param>
+        /// <returns>A lista de produto</returns>
 
         [HttpGet("{id}")]
 
@@ -44,6 +55,12 @@ namespace GreenLife.WebAPI.Controller
                 return BadRequest(erro.Message);
             }
         }
+
+        /// <summary>
+        /// Endpoint da API que faz chamada ao método de cadastrar um novo produto, recebendo os dados do produto via form-data, incluindo a imagem do produto
+        /// </summary>
+        /// <param name="produto">Produto a ser cadastrado</param>
+        /// <returns>Status code 201</returns>
 
         [HttpPost]
 
@@ -93,6 +110,14 @@ namespace GreenLife.WebAPI.Controller
             }
 
         }
+
+        /// <summary>
+        /// Endpoint da API que faz chamada ao método de atualizar um produto
+        /// </summary>
+        /// <param name="id">Id do produto que vai ser atualizado</param>
+        /// <param name="produtoAtualizado">Novos dados do produto</param>
+        /// <returns>Status code 200 e produto atualizado</returns>
+
         [HttpPut("{id}")]
 
         public async Task<IActionResult> Put(Guid id, [FromForm] produtoDTOAtualizar produtoAtualizado)
@@ -150,6 +175,12 @@ namespace GreenLife.WebAPI.Controller
                 return BadRequest(erro.Message);
             }
         }
+
+        /// <summary>
+        /// Endpoint da API que faz chamada ao método de deletar um produto por id. 
+        /// </summary>
+        /// <param name="id">Do produto buscado</param>
+        /// <returns>Status code 204</returns>
 
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
