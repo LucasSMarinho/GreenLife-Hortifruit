@@ -13,6 +13,11 @@ namespace GreenLife.WebAPI.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Atualiza um fornecedor
+        /// </summary>
+        /// <param name="id">Id do fornecedor buscado</param>
+        /// <param name="fornecedor">Dados do fornecedor</param>
         public void Atualizar(Guid id, Fornecedor fornecedor)
         {
             var fornecedorBuscado = _context.Fornecedors.Find(id);
@@ -24,17 +29,30 @@ namespace GreenLife.WebAPI.Repositories
             }
         }
 
+        /// <summary>
+        /// Busca um fornecedor por Id
+        /// </summary>
+        /// <param name="id">Id do fornecedor buscado</param>
+        /// <returns>Retorna o fornecedor buscado</returns>
         public Fornecedor BuscarPorId(Guid id)
         {
             return _context.Fornecedors.Find(id)!;
         }
 
+        /// <summary>
+        /// Cadastra um fornecedor
+        /// </summary>
+        /// <param name="fornecedor">Dados do fornecedor</param>
         public void Cadastrar(Fornecedor fornecedor)
         {
             _context.Fornecedors.Add(fornecedor);
             _context.SaveChanges();
         }
 
+        /// <summary>
+        /// Deleta um fornecedor 
+        /// </summary>
+        /// <param name="id">Id do fornecedor que será deletado</param>
         public void Deletar(Guid id)
         {
             var fornecedorBuscado = _context.Fornecedors.Find(id);
@@ -44,7 +62,10 @@ namespace GreenLife.WebAPI.Repositories
               _context.SaveChanges();
             }
         }
-
+        /// <summary>
+        /// Lista todos os fornecedores
+        /// </summary>
+        /// <returns>Retorna lista de fornecedores</returns>
         public List<Fornecedor> Listar()
         {
             return _context.Fornecedors.OrderBy(e => e.NomeFantasia).ToList();
