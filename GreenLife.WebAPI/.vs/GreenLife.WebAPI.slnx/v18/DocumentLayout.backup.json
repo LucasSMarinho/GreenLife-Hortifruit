@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.104\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|c:\\users\\45193262813\\desktop\\greenlife-hortifruit\\greenlife.webapi\\repositories\\fornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB939BFD-92DA-1E3A-D9F8-A7F03839998B}|GreenLife.WebAPI.csproj|solutionrelative:repositories\\fornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,7 +77,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProdutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\DTO\\ProdutoDTO.cs",
               "RelativeDocumentMoniker": "DTO\\ProdutoDTO.cs",
@@ -96,19 +99,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.104\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.104\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.104\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.104\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAJ0CAAAAAAAAAAAvwKwCAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-31T14:45:32.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FornecedorRepository.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Repositories\\FornecedorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FornecedorRepository.cs",
               "ToolTip": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Repositories\\FornecedorRepository.cs",
               "RelativeToolTip": "Repositories\\FornecedorRepository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowBMAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T14:38:24.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T14:38:24.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FornecedorController.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Controller\\FornecedorController.cs",
               "RelativeDocumentMoniker": "Controller\\FornecedorController.cs",
@@ -116,12 +131,11 @@
               "RelativeToolTip": "Controller\\FornecedorController.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAswFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T14:08:59.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T14:08:59.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GreenLifeContext.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\BdContextGreenLife\\GreenLifeContext.cs",
               "RelativeDocumentMoniker": "BdContextGreenLife\\GreenLifeContext.cs",
@@ -133,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "produtoDTOAtualizar.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\DTO\\produtoDTOAtualizar.cs",
               "RelativeDocumentMoniker": "DTO\\produtoDTOAtualizar.cs",
@@ -145,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CategoriaProduto.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Models\\CategoriaProduto.cs",
               "RelativeDocumentMoniker": "Models\\CategoriaProduto.cs",
@@ -157,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Fornecedor.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Models\\Fornecedor.cs",
               "RelativeDocumentMoniker": "Models\\Fornecedor.cs",
@@ -169,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Interfaces\\IProdutoRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IProdutoRepository.cs",
@@ -181,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Controller\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controller\\ProdutoController.cs",
@@ -189,12 +203,11 @@
               "RelativeToolTip": "Controller\\ProdutoController.cs",
               "ViewState": "AgIAAMAAAAAAAAAAAAAuwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T12:04:04.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T12:04:04.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FornecedorDTO.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\DTO\\FornecedorDTO.cs",
               "RelativeDocumentMoniker": "DTO\\FornecedorDTO.cs",
@@ -206,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "Models\\Produto.cs",
@@ -218,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Repositories\\ProdutoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProdutoRepository.cs",
@@ -226,12 +239,11 @@
               "RelativeToolTip": "Repositories\\ProdutoRepository.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwEsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:36:24.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T11:36:24.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CategoriaProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Repositories\\CategoriaProdutoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CategoriaProdutoRepository.cs",
@@ -243,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoriaProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Controller\\CategoriaProdutoController.cs",
               "RelativeDocumentMoniker": "Controller\\CategoriaProdutoController.cs",
@@ -251,12 +263,11 @@
               "RelativeToolTip": "Controller\\CategoriaProdutoController.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAswF0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:49:38.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:49:38.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\45193262813\\Desktop\\GreenLife-Hortifruit\\GreenLife.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
